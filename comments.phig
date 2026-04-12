@@ -1,0 +1,9 @@
+# header comment
+name myapp # inline comment
+# between pairs
+version 1.0
+tags [
+  # comment in list
+  web
+  production
+]

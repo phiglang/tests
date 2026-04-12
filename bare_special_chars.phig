@@ -1,0 +1,5 @@
+url http://example.com/path
+email user@domain.com
+version 1.0.2
+file /etc/config.yaml
+ip 192.168.1.1:8080

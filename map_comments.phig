@@ -1,0 +1,7 @@
+x {
+  # leading comment
+  a 1
+  # middle comment
+  b 2
+  # trailing comment
+}

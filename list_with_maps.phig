@@ -1,0 +1,4 @@
+servers [
+  {host alpha; port 80}
+  {host beta; port 443}
+]

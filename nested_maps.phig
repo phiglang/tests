@@ -1,0 +1,8 @@
+server {
+  host localhost
+  port 8080
+  tls {
+    cert /path/to/cert
+    key /path/to/key
+  }
+}

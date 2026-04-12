@@ -1,0 +1,8 @@
+{
+  "newline": "hello\nworld",
+  "tab": "col1\tcol2",
+  "cr": "line\rreturn",
+  "backslash": "path\\to",
+  "quote": "say \"hi\"",
+  "null": "a\u0000b"
+}

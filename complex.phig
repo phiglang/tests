@@ -1,0 +1,27 @@
+# app config
+name "My App"
+version 1.0.2
+tags [web production v2]
+
+server {
+  host 0.0.0.0; port 8080
+  tls {
+    cert 'C:\myapp\cert.pem'
+    key 'C:\myapp\key.pem'
+  }
+}
+
+db {
+  url 'postgres://localhost/primary'
+  pool { min 2; max 10 }
+}
+
+log { level debug; format "%t\t%msg\n" }
+
+cors [
+  https://example.com
+  http://localhost:3000
+]
+
+motd "welcome \
+to my app"
